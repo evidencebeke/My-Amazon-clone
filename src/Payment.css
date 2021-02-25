@@ -1,0 +1,39 @@
+.payment {
+  background-color: white;
+}
+.payment > h1 {
+  font-weight: 400;
+  text-align: center;
+  padding: 10px;
+  background-color: rgb(234, 237, 237);
+  border-bottom: lightgray;
+}
+.payment > h1 > a {
+  text-decoration: none;
+}
+.payment__section {
+  display: flex;
+  padding: 20px;
+  margin: 0, 20px;
+  border-bottom: 1px solid lightgray;
+}
+.payment__title {
+  flex: 0.2;
+}
+.payment__address,
+.payment__item,
+.payment__details {
+  flex: 0.8;
+}
+.payment__addressForm {
+  margin: 10px;
+}
+.payment__addressForm > label > input {
+  outline: none;
+  border: none;
+  border-bottom: 1px solid rgb(170, 154, 154);
+  width: 50%;
+}
+.payment__address {
+  font-family: "Times New Roman", Times, serif;
+}
