@@ -41,19 +41,23 @@
   display: flex;
   justify-content: space-evenly;
 }
-.header__optionLineOne{
+.header__optionLineOne {
   font-size: 10px;
 }
-.option__lineTwo{
+.option__lineTwo {
   font-size: 13px;
   font-weight: 800;
 }
-.header__optionBasket{
+.header__optionBasket {
   display: flex;
   align-items: center;
   color: white;
 }
-.header__basketCount{
+.header__basketCount {
   margin-right: 10px;
   margin-left: 10px;
+}
+.header > a,
+.header__nav > a {
+  text-decoration: none;
 }
